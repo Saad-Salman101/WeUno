@@ -1,0 +1,59 @@
+{
+    "listing" :[
+    {   "image": "/assets/Section1/Products/1.png",
+        "name": "Vicks First Defence nasal spray - 15ml",
+        "company": "Semos Pharmaceuticals (Pvt) Ltd",
+        "price": "1200.00",
+        "rating": 3,
+        "reviews": 12
+    },
+    {   
+        "image": "/assets/Section1/Products/2.png",
+        "name": "Deep Freeze Spray 150ml",
+        "company": "Titlis Pharma",
+        "price": "1400.00",
+        "rating": 3,
+        "reviews": 12
+    },
+    {
+        "name": "Boots Calcium + Vitamins D & K 60 Tablets",
+        "company": "GSK Consumer Healthcare",
+        "price": "120.00",
+        "rating": 2,
+        "reviews": 5,
+        "image": "/assets/Section1/Products/3.png"
+    },
+    {
+        "name": "Vicks First Defence nasal spray - 15ml",
+        "company": "Semos Pharmaceuticals (Pvt) Ltd",
+        "price": "1200.00",
+        "rating": 3,
+        "reviews": 12,
+        "image": "/assets/Section1/Products/4.png"
+    },
+    {
+        "name": "Elasticated 3PLY face mask",
+        "company": "Roch",
+        "price": "140.00",
+        "rating": 1,
+        "reviews": 145,
+        "image": "/assets/Section1/Products/5.png"
+    },
+    {
+        "name": "Elasticated 3PLY face mask",
+        "company": "Roch",
+        "price": "140.00",
+        "rating": 1,
+        "reviews": 145,
+        "image": "/assets/Section1/Products/6.png"
+    },
+    {
+        "name": "Vicks First Defence nasal spray - 15ml",
+        "company": "Semos Pharmaceuticals (Pvt) Ltd",
+        "price": "1403.00",
+        "rating": 1,
+        "reviews": 155,
+        "image": "/assets/Section1/Products/7.png"
+    }
+]
+}
