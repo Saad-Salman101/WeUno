@@ -31,12 +31,12 @@ const Slider = ({ children }) => {
       const windowWidth = window.innerWidth;
       if (windowWidth >= 1600) {
         setSlidesPerView(6);
-      } else if (windowWidth >= 1366 &&  windowWidth >= 780) {
+      } else if (windowWidth >= 1366 &&  windowWidth >= 1000) {
         setSlidesPerView(5);
-      } else if (windowWidth < 780 && windowWidth >=900) {
+      } else if (windowWidth < 1000 && windowWidth >=700) {
         setSlidesPerView(4);
       }
-      else if (windowWidth < 900 && windowWidth >=580) {
+      else if (windowWidth < 700 && windowWidth >=580) {
         setSlidesPerView(3);
       }    
         else if (windowWidth < 540) {
@@ -73,7 +73,7 @@ const Slider = ({ children }) => {
           <div className="w-20 ">
             <img src="/assets/Section1/Left.png" alt="" className="swiper-button-prev1" />
           </div>
-          <div className="w-10 ">
+          <div className="w-20">
           <img src="/assets/Section1/Right.png" alt="" className="swiper-button-next1" />
           </div>
         </div>
