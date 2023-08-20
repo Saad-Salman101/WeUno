@@ -18,11 +18,11 @@ const Product = ({mydata}) => {
   return (
     mydata &&(
         <>
-        <div className='border-[1px] border-gray-300 rounded-lg w-[334px] h-[393px]'>
+        <div className='border-[1px] border-gray-300 rounded-lg w-[250px] sm:w-[334px] h-[393px]'>
         <img src={mydata ? mydata.image : " "} alt='' className=''/>
         <div className='flex flex-col justify-around h-[200px] items-start ml-5'>
             <h1 className=' underline text-[11px] tracking-[2px]'>{mydata.date}</h1>
-            <h1 className=' font-black text-[18px] tracking-[2px]'>{mydata.title}</h1>
+            <h1 className=' font-black text-[12px] sm:text-[18px] tracking-[2px]'>{mydata.title}</h1>
             <p className=' underline text-[11px] tracking-[2px]'>Read More</p>
         </div>
         </div>

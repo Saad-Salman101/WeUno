@@ -31,9 +31,9 @@ const Slider = ({ children }) => {
       const windowWidth = window.innerWidth;
       if (windowWidth >= 1600) {
         setSlidesPerView(2);
-      } else if (windowWidth >= 1366 &&  windowWidth >= 930) {
+      } else if (windowWidth <= 1366 &&  windowWidth >= 700) {
         setSlidesPerView(2);
-      } else if (windowWidth < 930 && windowWidth >=540) {
+      } else if (windowWidth < 700 && windowWidth >=540) {
         setSlidesPerView(1);
       }
         else if (windowWidth < 540) {
