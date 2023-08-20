@@ -42,7 +42,7 @@ const Product = ({mydata}) => {
                     <input type="radio" id="star1" name="rating" value="1" className="hidden" />
                     <label htmlFor="star1" className={`cursor-pointer ${starClass(5)}`}>&#9733;</label>
                 </div>
-                <p className='text-[8px] font-light flex justify-center items-center ml-5'>10 {mydata ? mydata.reviews : 'Not Available'}</p>
+                <p className='text-[8px] font-light flex justify-center items-center ml-5'>Reviews {mydata ? mydata.reviews : 'Not Available'}</p>
             </div>
         </div>
     </div>
